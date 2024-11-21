@@ -1,0 +1,113 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 1rem;
+  font-size: 1.6rem;
+}
+
+section,
+h1,
+h2,
+h3,
+p,
+ul {
+  margin-block-end: 1rem;
+}
+section {
+  background-color: #bbddee;
+  padding: 1rem;
+}
+
+h1 {
+  font-weight: 600;
+}
+
+h2 {
+  background-color: #88aabb;
+  text-align: right;
+  font-size: 2.5rem;
+  padding: 1rem;
+  letter-spacing: 3px;
+  font-weight: 700;
+  text-transform: lowercase;
+  margin: -1rem -1rem 1rem 0;
+}
+
+h3 {
+}
+
+p {
+}
+
+pre {
+  font-family: "Courier New", Courier, monospace;
+  margin-inline-start: 2rem;
+}
+
+ul {
+  list-style: disc;
+  margin-inline-start: 3rem;
+}
+ul li {
+}
+#toka,
+#kolmas {
+  border: black 1px solid;
+}
+
+/* section.toka kuvan muotoilu */
+
+.small-left-top {
+  background-color: white;
+  width: 10rem;
+  float: left;
+  margin: -1rem 2rem 1rem -1rem;
+  border-inline-end: black 1px solid;
+  border-block-end: black 1px solid;
+}
+.small-left-top img {
+  max-width: 100%;
+}
+
+/*class tyypise säännöt*/
+
+.iso {
+  float: left;
+  font-size: 500%;
+  width: 10rem;
+  text-align: center;
+  padding: 0.2rem 0.2rem 0;
+  background-color: #568;
+  color: white;
+  margin: -1rem 2rem 2rem -1rem;
+  border-block-end: 2rem white solid;
+  padding: 1rem 1rem 2rem;
+  border-inline-end: 1.5rem white solid;
+}
+
+.banner-left {
+  background-color: white;
+  padding: 1rem;
+  width: 50rem;
+  float: inline-start;
+  margin: -1.1rem 2rem 1rem -1.1rem;
+  border-block-end: black 1px solid;
+  border-inline-end: black 1px solid;
+}
+.banner-right {
+  background-color: white;
+  padding: 2rem 1rem;
+  width: 40rem;
+  float: inline-end;
+  margin: 1rem 2rem 1rem -1.1rem;
+  border-block-end: black 1px solid;
+  font-weight: 700;
+  font-size: 2rem;
+  font-style: italic;
+  margin: 2rem -1.1rem 2rem 2rem;
+  border-inline-end: 0;
+  border: black 1px solid;
+}
